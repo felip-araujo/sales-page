@@ -1,0 +1,67 @@
+#linha1{
+    height: 25px;
+    font-size: 15px;
+}
+#headline{
+    padding-top: 10px;
+    height: 160px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    font-size: 1rem;
+}
+#player{
+    margin-top: -75px;
+    width: 460px;
+    height: 260px; 
+    padding: ;
+} 
+button{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bolder;   
+}
+button:hover{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    transition: color, 0.3s;
+    color: black;
+    font-weight: bolder;   
+} 
+#testimonials-container{
+    margin: 20px;
+    padding: 0px;
+    grid-template-columns: no-repeat (2, 1fr);
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+#headline-testimonials{
+    margin-top: -255px;
+} 
+#describe{
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: center;
+}
+.image{
+    border-radius: 13px;
+    width: 65%; 
+}
